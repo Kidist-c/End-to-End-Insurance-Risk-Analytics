@@ -37,6 +37,8 @@ data/
 *.csv
 *.json
 *.xlsx
+# DVC metadata files (.dvc) must be tracked by Git
+!*.dvc
 
 # IDE
 .vscode/
