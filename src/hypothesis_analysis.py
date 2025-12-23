@@ -9,7 +9,7 @@ from statsmodels.stats.proportion import proportion_confint
 from statsmodels.stats.multitest import multipletests
 
 # ---------- Config ----------
-PROCESSED_CSV = "../data/processed/insurance_cleaned.csv"
+PROCESSED_CSV = "../data/insurance_cleaned.csv"
 OUT_DIR = "../data/results/task3"
 TOP_N_ZIPS = 10   # number of top zipcodes for pairwise tests
 ALPHA = 0.05
